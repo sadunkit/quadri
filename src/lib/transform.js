@@ -6,6 +6,13 @@ export class Transform {
     }
 
     /**
+     * @param {mat4} transform
+     */
+    setTransform(transform) {
+        this.transform = transform;
+    }
+
+    /**
      * @param {number} x
      * @param {number} y
      */
